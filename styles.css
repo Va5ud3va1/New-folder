@@ -1,3 +1,4 @@
+
 /* styles.css */
 
 body {
@@ -97,6 +98,9 @@ footer {
 }
 
 .dark-mode header {
+  background-color: #110010;
+}
+ .dark-mode .welcome-message {
   background-color: #110010;
 }
 
