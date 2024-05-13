@@ -5,18 +5,34 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Vasudevan's Web Profile</title>
   <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+  <style>
+    /* Updated CSS for the floating welcome message with animation */
+    .welcome-message {
+      position: absolute;
+      top: 20px;
+      left: 600px;
+      background-color: #4CAF50;
+      color: #ffffff;
+      padding: 10px;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0);
+      animation: moveWelcomeMessage 5s ease-in-out infinite alternate;
+    }
+    
+    @keyframes moveWelcomeMessage {
+      0% {
+        top: ;
+      }
+      100% {
+        top: 50px; /* Adjust the distance from the top as needed */
+      }
+    }
+  </style>
 
 <header>
   <div class="profile">
     <div class="profile-photo">
       <img src="1.png.png" alt="Profile Photo">
-      img {
-  width: 200px;
-  height: 300px;
-  object-fit: contain;
-}
     </div>
     <div class="profile-name">Vasudevan</div>
   </div>
@@ -46,10 +62,10 @@
     </div>
     <div class="portfolio-item">
       <h3>Gaming Projects</h3>
-       <img src="1.png.png" alt="Gaming Projects"height="200">
-      <img src="icon.png" alt="Gaming Projects"height="200">
-      <img src="flower.png" alt="Gaming Projects"height="200">
-      <img src="tamil.png" alt="Gaming Projects"height="200">
+       <img src="1.png.png" alt="Gaming Projects" height="200">
+      <img src="icon.png" alt="Gaming Projects" height="200">
+      <img src="flower.png" alt="Gaming Projects" height="200">
+      <img src="tamil.png" alt="Gaming Projects" height="200">
     </div>
   </div>
 </section>
@@ -68,6 +84,11 @@
 <footer>
   <p>&copy; 2024 Vasudevan. All rights reserved.</p>
 </footer>
+
+<!-- Updated welcome message -->
+<div class="welcome-message">
+  <p>Welcome to my website!</p>
+</div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
 <script src="https://threejs.org/examples/js/loaders/GLTFLoader.js"></script>
